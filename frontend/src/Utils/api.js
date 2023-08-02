@@ -111,6 +111,6 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: "mesto2013.wawa234.nomoredomains.xyz",
+  baseUrl: "http://mesto2013.wawa234.nomoredomains.xyz",
 });
 export default api;
