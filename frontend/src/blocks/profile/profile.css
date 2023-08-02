@@ -1,0 +1,41 @@
+.profile {
+  max-width: 880px;
+  margin: 40px auto 0;
+  display: grid;
+  column-gap: 30px;
+  grid-template-areas: "avatar info button-add";
+  grid-template-columns: 120px 1fr 150px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1084px) {
+  .profile {
+    margin: 40px 60px 0;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .profile {
+    grid-template-areas: "avatar info"
+      "button-add button-add";
+    grid-template-columns: 120px 1fr;
+    row-gap: 36px;
+
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .profile {
+    margin: 42px 19px 0;
+    grid-template-areas: "avatar"
+      "info"
+      "button-add";
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .profile {
+    row-gap: 0;
+  }
+}

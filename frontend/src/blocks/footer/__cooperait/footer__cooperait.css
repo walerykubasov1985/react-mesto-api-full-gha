@@ -1,0 +1,27 @@
+.footer__cooperait {
+  max-width: 880px;
+  margin: 0 auto;
+  padding-top: 66px;
+  padding-bottom: 60px;
+  
+  color: #545;
+  font-size: 18px;
+  line-height: auto;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1074px) {
+  .footer__cooperait {
+    margin: 0 36px;
+    
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .footer__cooperait {
+    margin: 0 19px;
+    padding-top: 48px;
+    padding-bottom: 36px;
+    font-size: 14px;
+  }
+}

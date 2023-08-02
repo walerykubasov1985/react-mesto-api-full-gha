@@ -1,0 +1,17 @@
+.header__email {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 620px) {
+  .header__email{
+    display: none;
+  }
+}

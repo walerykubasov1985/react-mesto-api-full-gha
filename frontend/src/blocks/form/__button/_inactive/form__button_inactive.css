@@ -1,0 +1,12 @@
+.form__button_inactive {
+  background: #fff;
+  color: rgba(0, 0, 0, .2);
+  border: 2px solid rgba(0, 0, 0, .1);
+}
+
+.form__button_inactive:hover {
+  background: #fff;
+  color: rgba(0, 0, 0, .2);
+  border: 2px solid rgba(0, 0, 0, .1);
+  cursor: default;
+}

@@ -1,0 +1,13 @@
+.header__link-min {
+  color: #a9a9a9;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  text-decoration: none;
+}
+.header__link-min:hover{
+  opacity: .6;
+}

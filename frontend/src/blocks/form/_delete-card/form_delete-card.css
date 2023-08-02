@@ -1,0 +1,10 @@
+.form_delete-card {
+  margin: 38px 36px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 584px) {
+  .form_delete-card {
+    margin: 38px 22px 0;
+  }
+}

@@ -1,0 +1,13 @@
+.header__link_registration {
+  color: #fff;
+}
+
+@media screen and (max-width: 620px) {
+  .header__link_registration {
+    color: #fff;
+    display: block;
+    margin-right: 30px;
+    font-size: 14px;
+    line-height: auto;
+  }
+}

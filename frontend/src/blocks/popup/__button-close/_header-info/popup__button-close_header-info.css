@@ -1,0 +1,10 @@
+@media screen and (max-width: 620px) {
+    .popup__button-close_header-info {
+      width: 20px;
+      height: 20px;
+      right: 30px;
+      top: 145px;
+    }
+  }
+
+

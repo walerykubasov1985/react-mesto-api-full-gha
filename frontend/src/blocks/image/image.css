@@ -1,0 +1,12 @@
+.image {
+  margin: 0;
+  width: 282px;
+  min-height: 361px;
+  box-sizing: border-box;
+  background-color: #fff;
+  object-fit: contain;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+
+}

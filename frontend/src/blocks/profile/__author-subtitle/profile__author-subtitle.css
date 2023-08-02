@@ -1,0 +1,31 @@
+.profile__author-subtitle {
+  margin: 7px 0 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 620px) {
+  .profile__author-subtitle {
+    margin: 14px 0 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .profile__author-subtitle {
+    font-size: 14px;
+    line-height: 14px;
+
+  }
+}
+
+/* Здравствуйте! Пытался сделать так, чтобы флекс row при минимакльном заголовке не перносился на одну строку, поэтому делал мин-ширину. Сейчас сделал gridом чтобы автор и субтитле
+могли быть как в максимальном значении так и в минимальном на своих строках. Я думаю имя и субтитле может быть как из 2-х символов так и более, а если выходит за пределы создается многоточие.
+Подумал из макета нужно ограничивать ширину, а если место позволяет почему не сделать её шире.
+Спасибо большое за ревью!!!
+ДАННЫЙ КОКОМЕНТАРИЙ ПОТОМ УДАЛЮ*/

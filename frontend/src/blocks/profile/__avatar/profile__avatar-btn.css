@@ -1,0 +1,18 @@
+.profile__avatar-btn {
+  grid-area: avatar;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #000;
+  border: none;
+  background-image: url("../../../images/avatar-ss.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #000F;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+
