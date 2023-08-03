@@ -1,12 +1,11 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const { NODE_ENV, JWT_SECRET } = require('../utils/constant');
 const User = require('../models/user');
 const BadRequest = require('../errors/bad-request');
 const ConnflictRequest = require('../errors/conflict-request');
 const NotFound = require('../errors/notFound');
 const NotAuthorized = require('../errors/notAuthorized');
-
-const { NODE_ENV, JWT_SECRET } = process.env;
 
 const login = (req, res, next) => {
   const { email, password } = req.body;
