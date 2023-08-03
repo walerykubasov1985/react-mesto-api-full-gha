@@ -1,4 +1,4 @@
-export const BASE_URL = "http://mesto2013.wawa234.nomoredomains.xyz";
+export const BASE_URL = "https://mesto2013.wawa234.nomoredomains.xyz";
 
 const checkData = (res) => {
   if (!res.ok) {
