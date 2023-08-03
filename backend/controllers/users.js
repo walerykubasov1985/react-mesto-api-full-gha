@@ -5,7 +5,6 @@ const User = require('../models/user');
 const BadRequest = require('../errors/bad-request');
 const ConnflictRequest = require('../errors/conflict-request');
 const NotFound = require('../errors/notFound');
-const NotAuthorized = require('../errors/notAuthorized');
 
 const login = (req, res, next) => {
   const { email, password } = req.body;
@@ -19,7 +18,7 @@ const login = (req, res, next) => {
       );
       res.send({ token });
     })
-    .catch(() => next(new NotAuthorized('Нужно авторизоваться')));
+    .catch(next);
 };
 
 const getUsers = (req, res, next) => {
