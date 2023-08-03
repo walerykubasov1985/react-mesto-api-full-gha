@@ -10,12 +10,13 @@ const { PORT, MONGO_DB } = require('./utils/constant');
 require('dotenv').config();
 const centralError = require('./middlewares/centralError');
 const routes = require('./routes');
+const middlewaresCors = require('./middlewares/cors');
 
 // const { PORT = 4000, MONGO_DB = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 
 const app = express();
 app.use(cors());
-
+app.use(middlewaresCors);
 mongoose.connect(MONGO_DB);
 
 const limiter = rateLimit({
