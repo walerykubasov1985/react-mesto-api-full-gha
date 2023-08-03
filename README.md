@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.67.84 
+IP-адрес 158.160.74.249 
 
 Frontend https://mesto.wawa234.nomoredomains.xyz
 
